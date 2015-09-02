@@ -187,6 +187,7 @@ public class Stripe {
         cardParams.put("address_zip", TextUtils.nullIfBlank(card.getAddressZip()));
         cardParams.put("address_state", TextUtils.nullIfBlank(card.getAddressState()));
         cardParams.put("address_country", TextUtils.nullIfBlank(card.getAddressCountry()));
+        cardParmas.put("currency", "usd");
 
         // Remove all null values; they cause validation errors
         for (String key : new HashSet<String>(cardParams.keySet())) {
