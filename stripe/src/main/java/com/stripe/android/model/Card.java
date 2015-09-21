@@ -393,8 +393,10 @@ public class Card extends com.stripe.model.StripeObject {
         return type;
     }
 
-    public void setType(String type){
-        this.type = type;
+
+    public void recalculateType(){
+        type = null;
+        type = getType();
     }
 
     public String getFingerprint() {
