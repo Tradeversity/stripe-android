@@ -43,3 +43,5 @@ stripe/*.log
 example/bin
 example/target
 example/gen
+
+javadoc/

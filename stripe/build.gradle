@@ -27,4 +27,4 @@ android {
 // Apply chrisbanes' excellent gradle-mvn-push recipe,
 // which lets us publish the build artifacts to maven
 // without *writing a single line of XML.*
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: 'https://raw.githubusercontent.com/r0adkll/Slidr/master/gradle-mvn-push.gradle'
